@@ -1,0 +1,25 @@
+sudo sed -i -E 's/(https?:\/\/)(.*)(\/ubuntu)/\1mirror.kakao.com\3/g' /etc/apt/sources.list
+sudo apt update
+sudo apt install -y make \
+         build-essential \
+         libedit-dev \
+         libssl-dev \
+         zlib1g-dev \
+         libbz2-dev \
+         nlibreadline-dev \
+         libsqlite3-dev \
+         git \
+         wget \
+         curl \
+         llvm \
+         libncurses5-dev \
+         libncursesw5-dev \
+         xz-utils \
+         tk-dev
+    
+sudo apt install -y gnome-tweaks \
+         uim \
+         uim-byeoru \
+         noto-fonts-cjk \
+         zsh
+
