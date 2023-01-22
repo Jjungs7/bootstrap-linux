@@ -6,7 +6,6 @@ sudo apt install -y make \
          libssl-dev \
          zlib1g-dev \
          libbz2-dev \
-         nlibreadline-dev \
          libsqlite3-dev \
          git \
          wget \
@@ -20,6 +19,5 @@ sudo apt install -y make \
 sudo apt install -y gnome-tweaks \
          uim \
          uim-byeoru \
-         noto-fonts-cjk \
          zsh
 
